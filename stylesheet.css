@@ -1,0 +1,109 @@
+# float-dot.github.io
+*{
+  box-sizing:border-box;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height:35px;
+  background-color:rgba(0,128,128,0.5)
+}
+.header-left{
+  float:left;
+}
+.logo {
+  width:35px;
+  height:35px;
+  marigin:0 20px;
+}
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+}
+.header-right:hover{
+ background-color:rgba(255, 255, 255, 0.5);
+}
+.header-right a{
+  line-height:35px;
+  padding:0 25px;
+  color:white;
+  display:block;
+}
+.container{
+  max-width:1170px;
+  width:100%
+  padding:0 15px;
+  margin:0 auto;
+}
+
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image:url(top-背景.jpg);
+  color:gray;
+  background-size:cover;
+}
+.top-wrapper h1{
+  color: green;
+  font-size: 40px;
+}
+
+.resume {
+  margin:15px;
+  height:400px;
+  border-bottom:1px solid gray;
+}
+
+.basic-inf{
+  width:50%;
+  float:left;
+}
+.picture-icon {
+  width:50%;
+  border:1px solid gray;
+}
+.ba {
+  background-color:green;
+  color:silver;
+  width:100%;
+
+}
+.cot span{
+padding-right:3px;
+}
+.birth .adrs .cot　.grad{
+  font-size:20px;
+}
+
+.time {
+  background-color:silver;
+  font-size:20px;
+  color:green;
+}
+.job{
+  font-size:15px;
+  color:purple;
+}
+.exp-contents{
+  margin-top:5px;
+  margin-bottom:5px;
+  border-bottom:1px solid gray;
+}
+.message {
+  font-size:20px;
+  background-color:silver;
+  color:green;
+}
+footer {
+    height:35px;
+    background-color:rgba(0,128,128,0.5)
+
+}
